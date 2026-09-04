@@ -14,7 +14,7 @@ A collection of my Python programming practice, problem-solving exercises, and s
 - `sorting_algorithms/` — Implementations and practice involving sorting algorithms.
 - `OOPS/` — Object-oriented programming concepts and exercises.
 - `Pygame/` — Programs and experiments using Pygame.
-- `projects/` — Larger Python programs and projects.
+- `projects/` — Small Python programs and projects.
 - `practice/` — General Python practice.
 
 ## Topics Covered
