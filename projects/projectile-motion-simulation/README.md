@@ -1,5 +1,13 @@
 # Projectile Motion Simulation
 
+<img width="1893" height="954" alt="image" src="https://github.com/user-attachments/assets/1957200d-d034-4834-bda3-a38f0c7e80e4" />
+
+
+
+
+
+
+
 An interactive 2D simulation of projectile motion built with Python, NumPy, and Matplotlib. I created this project to explore the equations of projectile motion visually and presented it at a science exhibition.
 
 ## Features
