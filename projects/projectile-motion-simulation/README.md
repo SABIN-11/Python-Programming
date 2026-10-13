@@ -43,28 +43,28 @@ A desktop Matplotlib window is required for the sliders, buttons, and animation.
 
 The simulation assumes ideal projectile motion: air resistance is ignored, gravitational acceleration is constant, and the projectile lands at the same height from which it was launched.
 
-For initial speed \(v_0\), launch angle \(\theta\), gravitational acceleration \(g\), and time \(t\), the initial velocity components are
+For initial speed \(v_0\), launch angle (θ), gravitational acceleration \(g\), and time \(t\), the initial velocity components are
 
 \[
-v_{x0}=v_0\cos\theta, \qquad v_{y0}=v_0\sin\theta.
+v_{x0}=v_0\cos\θ, \qquad v_{y0}=v_0\sin\θ.
 \]
 
 The position is calculated from
 
 \[
-x(t)=v_0\cos\theta\,t
+x(t)=v_0\cos\θ\,t
 \]
 
 \[
-y(t)=v_0\sin\theta\,t-\frac{1}{2}gt^2.
+y(t)=v_0\sin\θ\,t-\frac{1}{2}gt^2.
 \]
 
 For the same launch and landing height, the program also calculates the time of flight, maximum height, and horizontal range:
 
 \[
-T=\frac{2v_0\sin\theta}{g}, \qquad
-H=\frac{v_0^2\sin^2\theta}{2g}, \qquad
-R=\frac{v_0^2\sin(2\theta)}{g}.
+T=\frac{2v_0\sin\θ}{g}, \qquad
+H=\frac{v_0^2\sin^2\θ}{2g}, \qquad
+R=\frac{v_0^2\sin(2\θ)}{g}.
 \]
 
 These equations let the simulation update the trajectory and numerical readouts whenever a parameter changes.
