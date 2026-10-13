@@ -48,13 +48,13 @@ For initial speed \(v_0\), launch angle (θ), gravitational acceleration \(g\), 
 v_x0 = v_0 * cosθ, v_y0 = (v_0 * sinθ) - gt
 
 The position is calculated from
-x(t) = v_0 * cosθ * t
+x(t) = v_0 * cosθ * t,
 y(t) = v_0 * sinθ* t - 1/2*gt^2
 
 For the same launch and landing height, the program also calculates the time of flight, maximum height, and horizontal range:
 
-T = (2*v_θ * sinθ)/g
-H = (v_0^2 * sin^2(θ))/2g
+T = (2*v_θ * sinθ)/g,
+H = (v_0^2 * sin^2(θ))/2g,
 R = (v_0^2 * sin(2θ))/g
 
 These equations let the simulation update the trajectory and numerical readouts whenever a parameter changes.
