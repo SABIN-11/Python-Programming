@@ -74,12 +74,6 @@ projectile-motion-simulation/
 - The launch and landing heights are assumed to be equal.
 - The simulation is intended for learning and visualization, not precision engineering.
 
-## Possible extensions
-
-- Add air resistance and compare the resulting path with ideal projectile motion.
-- Plot how the horizontal range changes with launch angle.
-- Compare trajectories for different initial speeds and gravitational fields.
-
 ## Technologies
 
 Python · NumPy · Matplotlib
