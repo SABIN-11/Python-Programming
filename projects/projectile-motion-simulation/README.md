@@ -45,27 +45,17 @@ The simulation assumes ideal projectile motion: air resistance is ignored, gravi
 
 For initial speed \(v_0\), launch angle (θ), gravitational acceleration \(g\), and time \(t\), the initial velocity components are
 
-\[
-v_{x0}=v_0\cos\θ, \qquad v_{y0}=v_0\sin\θ.
-\]
+v_x0 = v_0 * cosθ, v_y0 = (v_0 * sinθ) - gt
 
 The position is calculated from
-
-\[
-x(t)=v_0\cos\θ\,t
-\]
-
-\[
-y(t)=v_0\sin\θ\,t-\frac{1}{2}gt^2.
-\]
+x(t) = v_0 * cosθ * t
+y(t) = v_0 * sinθ* t - 1/2*gt^2
 
 For the same launch and landing height, the program also calculates the time of flight, maximum height, and horizontal range:
 
-\[
-T=\frac{2v_0\sin\θ}{g}, \qquad
-H=\frac{v_0^2\sin^2\θ}{2g}, \qquad
-R=\frac{v_0^2\sin(2\θ)}{g}.
-\]
+T = (2*v_θ * sinθ)/g
+H = (v_0^2 * sin^2(θ))/2g
+R = (v_0^2 * sin(2θ))/g
 
 These equations let the simulation update the trajectory and numerical readouts whenever a parameter changes.
 
